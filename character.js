@@ -50,7 +50,7 @@ if (superPower !== "None") {
 
 alert(`Gathering magic for ${charName}... almost ready!`);
 alert(`
-    ================================================
+    ============================================
     Name: ${charName}
     Pet: ${petName}
     Superpower: ${superPower}
@@ -61,5 +61,5 @@ alert(`
     In the floating city, Aerova -- You ${charName}, are 
     destined to vanquish the darkness that has engulfed it. 
     ${dialogueChoice}
-    ================================================
+    ============================================
     `);
