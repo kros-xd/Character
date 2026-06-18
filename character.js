@@ -38,6 +38,7 @@ const powerLevel = trainingYears * 10;
 const likesFighting = confirm(`Well ${charName}, do you like fighting monsters?\n\nOK for YES\nCANCEL for NO.`);
 console.log(likesFighting, typeof likesFighting);
 
+// Change ending message based on if the user has powers.
 let dialogueChoice = "";
 
 if (superPower !== "None") {
