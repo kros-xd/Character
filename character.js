@@ -12,7 +12,7 @@ console.log(trainingYearsText, typeof trainingYearsText);
 console.log(trainingYears, typeof trainingYears);
 const powerLevel = trainingYears * 10;
 
-const likesFighting = confirm(`Well... ${charName}, do you like fighting monsters?\nClick OK for YES\nCANCEL for NO.`);
+const likesFighting = confirm(`Well... ${charName}, do you like fighting monsters?\nOK for YES\nCANCEL for NO.`);
 console.log(likesFighting, typeof likesFighting);
 
 alert(`Gathering magic for ${charName}... almost ready!`);
